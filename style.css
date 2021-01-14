@@ -1,3 +1,22 @@
+ul {
+    padding:0px 30px;
+    margin:0px;
+    list-style:none;
+    position: relative;
+    bottom: 100px;
+}
+li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0px 20px;
+    color: aliceblue;
+    border: solid 0.7px aliceblue;
+    border-radius: 5px;
+    box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.425);
+}
+a {
+    color: inherit;
+}
 .titulo {
     padding: 180px 0px;
     background-image: url("https://www.dicasdefisioterapia.com/wp-content/uploads/2018/01/Fibromialgia-01.jpg");
@@ -22,11 +41,14 @@ h1 {
 .subIntroducao {
     color: aliceblue;
     background-color: rgb(39, 34, 105);
-    padding: 30px 230px;
+    padding: 30px 200px;
     font-size: 24px;
 }
-.vantagemList, .vantagemIgm {
-    float: right;
+.vantagemImg {
+    float: left;
+}
+.livroImgs {
+    float:right;
 }
 .dadosParagrafo{
     color: rgb(78, 24, 139);
@@ -46,12 +68,85 @@ button {
     border-radius: 8px;
     box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.425);
 }
-h3{
+h3 {
     font-size: 18px;
     text-align: center;
 }
 .col {
     text-align: center;
-
-    margin: 60px 30px;
+    margin: 60px 25px;
+}
+.estudos {
+    padding: 0 80px;
+    font-size: 22px;
+    text-align: center;
+}
+.depoimentos {
+    padding: 30px 0 ;
+    background-color: rgb(57, 13, 107);
+}
+.depoimentoTitulo {
+    color:#30cfd0;
+    font-size: 26px;
+    text-align: center;
+}
+.col-6 {
+    padding: 30px;
+    text-align: center;
+}
+.depoimentos1 {
+    margin: 30px 80px;
+}
+.depoimentoImg {
+    float: left;
+}
+.depoimentoTexto {
+    margin-left: 220px;
+}
+.dominandoF {
+    background-image: linear-gradient(to top, #30cfd0 30%, #330867 70%);
+    color: aliceblue;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px 80px;
+}
+.livroTitulo {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.livroSubTitulo {
+    padding-top: 20px;
+    color: rgb(39, 34, 105) ;
+}
+.livroImg {
+    padding: 30px;
+    text-align: center;
+}
+.bonus {
+    background-color: rgba(161, 161, 161, 0.808);
+    padding: 30px 180px;
+    margin-top: 30px;
+}
+.bonusTitulo {
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0);
+    font-size: 42px;
+    color: rgb(39, 34, 105);
+    padding-bottom: 20px;
+}
+.bonusImg {
+    float: right;
+}
+.duvidas {
+    padding: 20px 180px;
+}
+h4 {
+    text-align: center;
+    font-weight: 600;
+}
+.top {
+    font-size: 30px;
+    float: right;
 }
