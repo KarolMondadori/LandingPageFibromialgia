@@ -14,6 +14,8 @@ ul {
     list-style:none;
     position: relative;
     bottom: 100px;
+    position: fixed;
+    top:20px;
 }
 li {
     background-color: rgba(2, 2, 2, 0.514);
@@ -145,31 +147,17 @@ h3 {
     text-align: center;
 }
 .depoimentos1 {
-    margin: 30px 230px;
-}
-@media screen and (max-width:1000px){
-    .depoimentos1{
-        margin: 20px 0px ;
-    }
+    margin: 30px 20px;
 }
 
 .depoimentoImg {
-    max-width: 100%; 
-	height: auto; 
-	display:block;
-    float: left;
+    margin: 0 auto;
 }
 
 .depoimentoTexto {
-    text-align:justify;
-    padding-left: 240px;
+    text-align: left;
 }
-@media screen and (max-width:1000px) {
-    .depoimentoTexto {
-        text-align:justify;
-        padding-left: 0px;
-    }
-}
+
 .bonusTexto {
     text-align:justify;
     padding-right: 260px;
